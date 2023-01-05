@@ -1,0 +1,552 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #212f3c;
+}
+/* 
+=========================
+    header section 
+=========================   
+*/
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 2px solid  #85929e ;
+    margin: 10px;
+    color:  #85929e ;
+    border-radius: 8px;
+    margin: 20px;
+    line-height: 62px;
+}
+.center p {
+    text-align: center;
+    font-size: 28px;
+    border: 2px solid #85929e;
+    margin: 20px;
+    color: #85929e;
+    border-radius: 8px;
+}
+/* 
+=========================
+    main-pages section 
+=========================   
+*/
+.main-page {
+    display: flex;
+    margin: 20px;
+    align-items: start;
+    flex: wrap;
+}
+/* 
+==========================================
+    main-pages-sidebar-menu section 
+==========================================
+*/
+.main-page .sidebar-menu {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #85929e;
+    margin-right: 10px;
+    border-radius: 8px;
+    flex: wrap;
+}
+.main-page .sidebar-menu div a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #85929e;
+    line-height: 40px;
+}
+.main-page .sidebar-menu div a:hover {
+    text-decoration: underline;
+}
+
+/* 
+=============================================
+    main-pages-tribute-content section 
+=============================================
+*/
+.main-page .tribute-content {
+    flex: 4;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.597)), url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 10px;
+    border: 2px solid #85929e;
+    border-radius: 8px;
+    flex: wrap;
+}
+.main-page .tribute-content div img {
+    width: 20%;
+    text-align: center;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+.main-page .tribute-content div p {
+    font-size: 18px;
+    color: #85929e;
+    padding-bottom: 20px;
+}
+.main-page .tribute-content div h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #85929e;
+    line-height: 30px;
+    border-bottom: 2px solid #85929e;
+    display: inline;
+}
+.main-page .tribute-content .advice {
+    background: #212f3c;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.main-page .tribute-content .advice h5 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #85929e;
+    line-height: 32px;
+    font-style: italic;
+}
+.main-page .tribute-content .advice p {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+.main-page .tribute-content .timeline h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #85929e;
+    line-height: 30px;
+}
+.main-page .tribute-content .timeline p span {
+    font-weight: 700;
+    font-style: italic;
+    margin-right: 40px;
+    text-decoration: underline;
+    line-height: 24px;
+    font-size: 20px;
+}
+.main-page .tribute-content .timeline p  {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+}
+.copyright {
+    background: #85929e;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+footer p {
+    color: #212f3c;
+    text-align: center;
+
+}
+
+/* 
+=================================
+    introduce pages css start
+=================================   
+*/
+.tribute-content-intro {
+    flex: 4;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.597)), url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 10px;
+    border: 2px solid #85929e;
+    border-radius: 8px;
+    flex: wrap;
+    padding-bottom: 60px;
+    text-align: left !important;
+}
+.tribute-content-intro .intro-content {
+    
+}
+.tribute-content-intro .intro-content h3 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #85929e;
+}
+.tribute-content-intro .intro-content h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #85929e;
+}
+.tribute-content-intro .intro-content p {
+    font-size: 18px;
+    color: #85929e;
+    margin-bottom: 40px;
+}
+.tribute-content-intro .intro-content .intro-iphone-img img {
+    width: 60% !important;
+    border-radius: 4px !important;
+}
+
+.tribute-content-intro .intro-content .btn a {
+    padding: 10px 30px;
+    background: #212f3c;
+    border-radius: 8px;
+    color: #85929e;
+    text-decoration: none;
+    border: 2px solid #85929e;
+    font-size: 20px;
+}
+.tribute-content-intro .intro-content .btn a:hover {
+    padding: 10px 30px;
+    background: #85929e;
+    border-radius: 8px;
+    color: #212f3c;
+    text-decoration: none;
+    border: 2px solid #212f3c;
+    font-size: 20px;
+} 
+/* 
+=================================
+    introduce pages css end
+=================================   
+*/
+
+/* 
+=================================
+    content pages css start
+=================================   
+*/
+.tribute-content-contents {
+    flex: 4;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(0, 0, 0, 0.704)), url(../img/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 10px;
+    border: 2px solid #85929e;
+    border-radius: 8px;
+    flex: wrap;
+    padding-bottom: 60px;
+    text-align: left !important;
+}
+.tribute-content-contents .contents h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #85929e;
+}
+.tribute-content-contents .contents h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #85929e;
+}
+.tribute-content-contents .contents p {
+    font-size: 18px;
+    color: #85929e;
+    margin-bottom: 40px;
+}
+/* 
+=================================
+    eontent pages css end
+=================================   
+*/
+/* 
+=================================
+    randomarticle pages css start
+=================================   
+*/
+.tribute-content-contents-randomarticle {
+    flex: 4;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(0, 0, 0, 0.704)), url(../img/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 10px;
+    border: 2px solid #85929e;
+    border-radius: 8px;
+    flex: wrap;
+    padding-bottom: 60px;
+    text-align: left !important;
+}
+
+.tribute-content-contents-randomarticle .randomarticle h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #85929e;
+}
+.tribute-content-contents-randomarticle .randomarticle h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #85929e;
+}
+.tribute-content-contents-randomarticle .randomarticle p {
+    font-size: 18px;
+    color: #85929e;
+    margin-bottom: 40px;
+}
+/* 
+=================================
+    randomarticle pages css end
+=================================   
+*/
+/* 
+=================================
+    about pages css start
+=================================   
+*/
+.tribute-content-about {
+    flex: 4;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(0, 0, 0, 0.704)), url(../img/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 10px;
+    border: 2px solid #85929e;
+    border-radius: 8px;
+    flex: wrap;
+    padding-bottom: 60px;
+    text-align: left !important;
+}
+
+.tribute-content-about .about h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #85929e;
+}
+.tribute-content-about .about h6 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #85929e;
+}
+.tribute-content-about .about p {
+    font-size: 18px;
+    color: #85929e;
+    margin-bottom: 40px;
+}
+/* 
+=================================
+    about pages css end
+=================================   
+*/
+/* 
+=================================
+    contact pages css start
+=================================   
+*/
+.tribute-content-contact {
+    flex: 4;
+    text-align: center;
+    background: #212f3c;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 10px;
+    border: 2px solid #85929e;
+    border-radius: 8px;
+    flex: wrap;
+    padding-bottom: 60px;
+    text-align: left !important;
+}
+.contact {
+    color: #85929e;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #85929e;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: transparent;
+  }
+  #email {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #85929e;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: transparent;
+  }
+  input::placeholder {
+    color: #85929e94;
+  }
+  textarea::placeholder {
+    color: #85929e94;
+  }
+  input[type=submit] {
+    background-color: #85929e;
+    color: #212f3c;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #85929eaa;
+  }
+/* 
+=================================
+    contact pages css end
+=================================   
+*/
+
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+    /* header section */
+    header h1 {
+        font-size: 35px;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        border: 2px solid #85929e;
+        color: #85929e;
+        border-radius: 8px;
+        margin: 20px;
+        line-height: 62px;
+      }
+      .center p {
+        text-align: center;
+        font-size: 22px;
+        border: 2px solid #85929e;
+        margin: 20px;
+        color: #85929e;
+        border-radius: 8px;
+        line-height: 28px;
+      }
+      .main-page {
+        display: block;
+        margin: 20px;
+      }
+      .main-page .sidebar-menu {
+        padding: 20px;
+        border: 2px solid #85929e;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        margin-right: 0px;
+      }
+      .main-page .tribute-content {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.597)), url(../img/img-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-left: 0px;
+        border: 2px solid #85929e;
+        border-radius: 8px;
+      }
+      .main-page .tribute-content .advice h5 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #85929e;
+        line-height: 32px;
+        font-style: italic;
+      }
+      .tribute-content-intro {
+        flex: 4;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.597)), url(../img/img-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+        border: 2px solid #85929e;
+        border-radius: 8px;
+        flex: wrap;
+        padding-bottom: 60px;
+        text-align: left !important;
+      }
+      .tribute-content-contents {
+        flex: 4;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(0, 0, 0, 0.704)), url(../img/img-4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-left: 0px;
+        border: 2px solid #85929e;
+        border-radius: 8px;
+        flex: wrap;
+        padding-bottom: 0px;
+        text-align: left !important;
+      }
+      .tribute-content-contents-randomarticle {
+        flex: 4;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(0, 0, 0, 0.704)), url(../img/img-4.jpg);
+          background-position-x: 0%, 0%;
+          background-position-y: 0%, 0%;
+          background-repeat: repeat, repeat;
+          background-size: auto, auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+          padding-bottom: 20px;
+        margin-left: 0px;
+        border: 2px solid #85929e;
+        border-radius: 8px;
+        flex: wrap;
+        padding-bottom: 0px;
+        text-align: left !important;
+      }
+      .tribute-content-about {
+        flex: 4;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(0, 0, 0, 0.704)), url(../img/img-4.jpg);
+          background-position-x: 0%, 0%;
+          background-position-y: 0%, 0%;
+          background-repeat: repeat, repeat;
+          background-size: auto, auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+          padding-bottom: 20px;
+        margin-left: 0px;
+        border: 2px solid #85929e;
+        border-radius: 8px;
+        flex: wrap;
+        padding-bottom: 0px;
+        text-align: left !important;
+      }
+      .tribute-content-contact {
+        flex: 4;
+        text-align: center;
+        background: #212f3c;
+          background-position-x: 0%;
+          background-position-y: 0%;
+          background-repeat: repeat;
+          background-size: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-left: 0px;
+        border: 2px solid #85929e;
+        border-radius: 8px;
+        flex: wrap;
+        padding-bottom: 20px;
+        text-align: left !important;
+      }
+}
